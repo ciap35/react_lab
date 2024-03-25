@@ -2,18 +2,19 @@ import React from 'react';
 import '../stylesheets/Testimonio.css';
 
 //export function Testimonio() { //Exportación nombrada
-function Testimonio() { //Exportación por defecto
+function Testimonio(props) { //Exportación por defecto
     return (
       <div className='contenedor-testimonio'>
         <img
           className='imagen-testimonio'
-          src={require('../images/testimonio-1.png')}
-          alt='testimonial from our student'
+          //src={require('../images/testimonio-1.png')}
+          src={require(`../images/testimonio-${props.imagen}.png`)}
+          alt={`${props.alt != '' ? props.alt : "imagen"}`}
         />
       <div className='contenedor-texto-testimonio'>
-        <p className='nombre-testimonio'>John Doe in Sweden</p>
-        <p className='cargo-testimonio'>Software Engineer</p>
-        <p className='texto-testimonio'>It's scary to change careers. I only gained the confidence that I could code by working through the hundreds of hours of free lessons on freeCodeCamp. Within a year I had a six-figure job as a software engineer. freeCodeCamp changed my life.</p>
+        <p className='nombre-testimonio'><strong>{props.nombre}</strong> en {props.pais}</p>
+        <p className='cargo-testimonio'>{props.cargo} en <strong>{props.empresa}</strong></p>
+        <p className='texto-testimonio'>"{props.testimonio}"</p>
       </div>
       </div>
     );
