@@ -1,6 +1,5 @@
 import './App.css';
 import Testimonio from './components/Testimonio';
-//import { Testimonial } from './components/Testimonial';
 
 function App() {
   return (
