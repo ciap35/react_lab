@@ -1,0 +1,92 @@
+[
+  {
+    "lang": "Python",
+    "url": "https://cdn.svgporn.com/logos/python.svg",
+    "fcolor": "#00c3ff",
+    "scolor": "#ffff1c"
+  },
+  {
+    "lang": "Java",
+    "url": "https://cdn.svgporn.com/logos/java.svg",
+    "fcolor": "#D31027",
+    "scolor": "#EA384D"
+  },
+  {
+    "lang": "React",
+    "url": "https://cdn.svgporn.com/logos/react.svg",
+    "fcolor": "#000428",
+    "scolor": "#004e92"
+  },
+  {
+    "lang": "Perl",
+    "url": "https://cdn.svgporn.com/logos/perl.svg",
+    "fcolor": "#cc2b5e",
+    "scolor": "#753a88"
+  },
+  {
+    "lang": "JavaScript",
+    "url": "https://cdn.svgporn.com/logos/javascript.svg",
+    "fcolor": "#f7df1e",
+    "scolor": "#000000"
+  },
+  {
+    "lang": "TypeScript",
+    "url": "https://cdn.svgporn.com/logos/typescript.svg",
+    "fcolor": "#007acc",
+    "scolor": "#004aad"
+  },
+  {
+    "lang": "C++",
+    "url": "https://cdn.svgporn.com/logos/c-plusplus.svg",
+    "fcolor": "#00599C",
+    "scolor": "#4D8CC9"
+  },
+  {
+    "lang": "C#",
+    "url": "https://cdn.svgporn.com/logos/c-sharp.svg",
+    "fcolor": "#9A4993",
+    "scolor": "#682A68"
+  },
+  {
+    "lang": "Go",
+    "url": "https://cdn.svgporn.com/logos/go.svg",
+    "fcolor": "#00ADD8",
+    "scolor": "#007D9C"
+  },
+  {
+    "lang": "Ruby",
+    "url": "https://cdn.svgporn.com/logos/ruby.svg",
+    "fcolor": "#CC342D",
+    "scolor": "#801515"
+  },
+  {
+    "lang": "PHP",
+    "url": "https://cdn.svgporn.com/logos/php.svg",
+    "fcolor": "#4F5B93",
+    "scolor": "#6B7DB3"
+  },
+  {
+    "lang": "Swift",
+    "url": "https://cdn.svgporn.com/logos/swift.svg",
+    "fcolor": "#FA7343",
+    "scolor": "#D62E01"
+  },
+  {
+    "lang": "Kotlin",
+    "url": "https://cdn.svgporn.com/logos/kotlin.svg",
+    "fcolor": "#7F52FF",
+    "scolor": "#9446F6"
+  },
+  {
+    "lang": "Rust",
+    "url": "https://cdn.svgporn.com/logos/rust.svg",
+    "fcolor": "#DEA584",
+    "scolor": "#8C4529"
+  },
+  {
+    "lang": "Dart",
+    "url": "https://cdn.svgporn.com/logos/dart.svg",
+    "fcolor": "#0175C2",
+    "scolor": "#15A6DE"
+  }
+]
