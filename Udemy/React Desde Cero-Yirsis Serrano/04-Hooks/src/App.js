@@ -10,12 +10,13 @@ import HookUseMemo from './components/HookUseMemo.jsx'
 import HookUseMemo_1 from './components/HookUseMemo_1.jsx'
 import HookUseCallBack from './components/HookUseCallBack.jsx'
 import HookUseCallBack_1 from './components/HookUseCallBack_1.jsx'
+import CustomHook from './components/CustomHook.jsx'
 
 
 const App = () => {
   return (
     <div className='container text-center'>
-      <h1>useState</h1>
+      {/*<h1>useState</h1>
       <hr/>
       <HookState/>
       
@@ -91,7 +92,14 @@ const App = () => {
 
       <h1>HookUseCallBack_1</h1>
       <hr/>
-      <HookUseCallBack_1/>
+      <HookUseCallBack_1/>*/}
+      <br/>
+      <br/>
+      <br/>
+
+      <h1>CustomHook</h1>
+      <hr/>
+      <CustomHook/>
     </div>
   )
 }

@@ -6,6 +6,11 @@ const Child = React.memo(({ label }) => {
   return <p>{label}</p>;
 });
 
+/*const Child = ({ label }) => {
+    console.log('Child rendered'); // This will log only when 'label' changes
+    return <p>{label}</p>;
+  };*/
+
 const Parent = () => {
   const [count, setCount] = useState(0);
   const [label, setLabel] = useState("Initial Label");

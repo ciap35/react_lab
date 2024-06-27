@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 
 const HookUseEffect = () => {
   const [state, setState] = useState(0);
+  
   useEffect(() => {
     const interval = setInterval(() => {
       setState((prevState) => prevState + 1);
