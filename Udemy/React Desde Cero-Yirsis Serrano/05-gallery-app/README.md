@@ -1,5 +1,5 @@
 # Image Gallery App
-![image](https://github.com/ciap35/react_lab/assets/37873426/083ad603-a893-47bd-8620-829c1c92e103)
+![image](https://github.com/ciap35/react_lab/assets/37873426/52312503-ef9f-40d8-a6c7-3a89ab8d2e86)
 
 
 ## Overview
