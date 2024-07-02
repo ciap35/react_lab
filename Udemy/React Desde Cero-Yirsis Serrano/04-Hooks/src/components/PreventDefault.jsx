@@ -1,4 +1,4 @@
-const HookEffect = () => {
+const PreventDefault = () => {
 
     const handleSubmit = (e) =>{
         e.preventDefault();
@@ -35,4 +35,4 @@ const HookEffect = () => {
     )
 }
 
-export default HookEffect
+export default PreventDefault

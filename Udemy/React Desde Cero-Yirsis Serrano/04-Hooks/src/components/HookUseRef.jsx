@@ -1,7 +1,5 @@
 import React, { useRef } from 'react'
 
-
-
 const HookUseRef = () => {
 
   const txtArea = useRef(null);
