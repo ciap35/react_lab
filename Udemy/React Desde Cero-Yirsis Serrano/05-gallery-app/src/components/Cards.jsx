@@ -51,7 +51,7 @@ const Cards = () => {
                                 style={inputStyles}
                             />
                 </label>
-                <button type="submit" style={buttonStyles}>   <FontAwesomeIcon icon={faSearch}  /></button>
+                <button type="submit" style={buttonStyles}>   <FontAwesomeIcon icon={faSearch} /></button>
             </form>
             <div className="container">
                 <div className="row justify-content-center">
