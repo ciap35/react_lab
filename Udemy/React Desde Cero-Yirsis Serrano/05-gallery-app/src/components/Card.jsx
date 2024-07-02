@@ -39,7 +39,7 @@ const Card = ({ img }) => {
             </div>
 
             {isModalOpen && (
-                <div className={`modal ${isModalOpen ? 'open' : ''} container align-middle`} onClick={handleCloseModal}>
+                <div className={`modal ${isModalOpen ? 'open' : ''} align-middle`} onClick={handleCloseModal}>
                     <span className="close" onClick={handleCloseModal}>&times;</span>
                     <img className="modal-content" src={img.urls.full} alt={img.alt_description} />
                 </div>
