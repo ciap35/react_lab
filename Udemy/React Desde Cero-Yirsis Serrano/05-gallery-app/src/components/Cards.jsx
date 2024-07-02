@@ -1,5 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import Card from './Card';
+//Styles
+import '../stylesheets/cards.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
+
 import env from "react-dotenv";
 
 
@@ -38,13 +43,15 @@ const Cards = () => {
         <>
             <form onSubmit={handleSearch}>
                 <label>
-                    Search: <input 
+                <input 
                                 type="text" 
                                 value={input} 
-                                onChange={(e) => setInput(e.target.value)} 
+                                onChange={(e) => setInput(e.target.value)}
+                                placeholder="Search input..." 
+                                style={inputStyles}
                             />
                 </label>
-                <button type="submit">Search</button>
+                <button type="submit" style={buttonStyles}>   <FontAwesomeIcon icon={faSearch}  /></button>
             </form>
             <div className="container">
                 <div className="row justify-content-center">
@@ -55,6 +62,27 @@ const Cards = () => {
             </div>
         </>
     );
+};
+
+
+
+const inputStyles = {
+    padding: '8px',
+    border: '1px solid #ced4da',
+    borderRadius: '4px',
+    outline: 'none',
+    transition: 'border-color 0.3s ease-in-out',
+    width: '200px',
+};
+
+const buttonStyles = {
+    backgroundColor: '#007bff',
+    color: 'white',
+    border: 'none',
+    borderRadius: '4px',
+    padding: '8px 16px',
+    cursor: 'pointer',
+    transition: 'background-color 0.3s ease-in-out',
 };
 
 export default Cards;
