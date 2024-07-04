@@ -22,9 +22,9 @@ const Card = ({ img }) => {
                         alt={img.alt_description} 
                         onClick={handleImageClick}
                     />
-                    <div className="card-body">
-                        <h5 className="card-title" style={{ color: '#343a40' }}>{img.description || 'No description available.'}</h5>
-                        <p className="card-text" style={{ color: '#6c757d' }}>{img.alt_description}</p>
+                    <div className="card-body row d-flex justify-content-center align-items-center">
+                        <h5 className="card-title " style={{ color: '#343a40' }}>{img.description || 'No description available.'}</h5>
+                        <p className="card-text " style={{ color: '#6c757d' }}>{img.alt_description}</p>
                         <a
                             className="btn btn-primary"
                             href={img.urls.full}
