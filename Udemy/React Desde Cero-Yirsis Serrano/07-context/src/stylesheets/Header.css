@@ -1,0 +1,37 @@
+.header-container {
+    position: relative;
+  }
+  
+  .navbar-toggler {
+    position: absolute;
+    top: 0.5rem;
+    right: 15px; /* Ajusta el espacio del botón a la derecha */
+    z-index: 1; /* Asegura que el botón esté por encima del contenido */
+  }
+  
+  .animated-navbar {
+    animation: slideDown 0.5s forwards;
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo semi-transparente para el navbar */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    padding: 10px; /* Espaciado interno */
+    position: absolute;
+    top: 63px; /* Posición debajo de la barra superior */
+    width: 100%; /* Ancho completo */
+    z-index: 0; /* Por debajo del botón de hamburguesa */
+  }
+  
+  .animated-navbar li {
+    margin-bottom: 15px; /* Espacio entre elementos de la lista */
+  }
+  
+  @keyframes slideDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
