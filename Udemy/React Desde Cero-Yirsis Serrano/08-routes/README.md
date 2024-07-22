@@ -1,4 +1,7 @@
 Funny demo of the Simpsons :D 
+
+You can check the demo at: https://ciap-the-simpsons-demo.netlify.app/login
+
 ![image](https://github.com/user-attachments/assets/d7b92946-3a3e-4667-8388-c976b7fb9ba6)
 
 ![image](https://github.com/user-attachments/assets/3efa55d6-639f-4190-b0ed-4a9bc19363fb)
