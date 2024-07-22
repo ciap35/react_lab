@@ -1,6 +1,21 @@
-Funny demo of the Simpsons :D 
+The Simpsons Characters Demo
 
-You can check the demo at: https://ciap-the-simpsons-demo.netlify.app/login
+![image](https://github.com/user-attachments/assets/2de1e2b8-485a-4637-acb9-fee8987d24b8)
+
+
+This project is a simple React application demonstrating routing and dynamic searching with the characters from The Simpsons. 
+
+
+The live demo can be found here:
+
+https://ciap-the-simpsons-demo.netlify.app/login.
+
+Features
+React Router: For navigation between different components.
+Dynamic Search: Search for characters by name.
+Bootstrap: For responsive design.
+React-Snap: For pre-rendering and improving SEO.
+
 
 ![image](https://github.com/user-attachments/assets/d7b92946-3a3e-4667-8388-c976b7fb9ba6)
 
