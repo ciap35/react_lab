@@ -1,17 +1,23 @@
-import React from 'react';
+import React, {lazy,Suspense} from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
-import MenScreen from '../pages/MenScreen';
-import WomenScreen from '../pages/WomenScreen';
-import Search from '../pages/Search';
-import Home from '../pages/Home'; // Asegúrate de tener esta página
+
 import MenuNavBar from '../components/MenuNavBar';
-import NotFound from '../pages/NotFound'
-import Character from '../pages/Character';
-import CharacterDetail from '../components/CharacterDetail';
+const MenScreen = lazy(()=> import('../pages/MenScreen'));
+const WomenScreen = lazy(()=> import('../pages/WomenScreen'));
+const Search = lazy(()=> import( '../pages/Search'));
+const Home = lazy(()=> import( '../pages/Home')); 
+const NotFound = lazy(()=> import( '../pages/NotFound'));
+const Character = lazy(()=> import( '../pages/Character'));
+const CharacterDetail = lazy(()=> import( '../components/CharacterDetail'));
+
+
+
+
 const AppRouter = () => {
   return (
     <>
       <MenuNavBar />
+      <Suspense fallback={<h1>Loading...</h1>}>
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/characters" component={Character} />
@@ -22,7 +28,8 @@ const AppRouter = () => {
         <Route path="/detail/:characterId" component={CharacterDetail}/>
         <Route component={NotFound} />
       </Switch>
-    </>
+      </Suspense>
+    </>    
   );
 };
 
